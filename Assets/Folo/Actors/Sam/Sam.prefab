@@ -1122,6 +1122,7 @@ GameObject:
   - component: {fileID: 511771893515150567}
   - component: {fileID: 8007197914819002928}
   - component: {fileID: 6907189603871725151}
+  - component: {fileID: 1127607543779628176}
   m_Layer: 13
   m_Name: Sam
   m_TagString: Untagged
@@ -1272,7 +1273,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":4.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"GroundCheckRadius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckDistance","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"HasKey","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"Health","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"GroundCheckRadius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckDistance","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &511771893515150567
 MonoBehaviour:
@@ -1302,6 +1303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13d1f62505a5144d0b7229b5dc00bd2c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actorName: 
 --- !u!114 &6907189603871725151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1318,6 +1320,18 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: a2d62b17f430b4f32b126c6a8fdbcdbf, type: 2}
+--- !u!114 &1127607543779628176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7763633607040886075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2afb95e7771490cb0e91423717c29e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7763642294433033955
 GameObject:
   m_ObjectHideFlags: 0
