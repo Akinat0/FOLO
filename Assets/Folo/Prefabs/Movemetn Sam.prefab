@@ -160,6 +160,9 @@ GameObject:
   - component: {fileID: 565940043882685416}
   - component: {fileID: 418871466531468252}
   - component: {fileID: 404752517896628168}
+  - component: {fileID: 4992184490410978435}
+  - component: {fileID: 4992184490410978436}
+  - component: {fileID: 4992184490410978437}
   m_Layer: 13
   m_Name: Movemetn Sam
   m_TagString: Untagged
@@ -279,6 +282,57 @@ Rigidbody2D:
   m_SleepingMode: 0
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &4992184490410978435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372172227573808378}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8722bbdecc0d24844ae4fb55d6c493d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onGround:
+    serializedVersion: 2
+    m_Bits: 2147483648
+  checkPointGround: {fileID: 371319095690323868}
+  speed: 7
+  jampForse: 3
+  groundRadius: 0.2
+--- !u!114 &4992184490410978436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372172227573808378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 745b6b6ea859c5c448eda6336e0e22f7, type: 2}
+--- !u!114 &4992184490410978437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 372172227573808378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"JumpForce","value":{"$content":3.0,"$type":"System.Single"},"$version":"A"},{"name":"Radius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckPoint","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"OnGround","value":{"value":-2147483648,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"Distace","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"FacingRight","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 372172227573808378}
 --- !u!1 &372714009827506812
 GameObject:
   m_ObjectHideFlags: 0
