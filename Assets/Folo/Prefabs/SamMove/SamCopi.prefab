@@ -1274,7 +1274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2974686756785819195
 Transform:
   m_ObjectHideFlags: 0
@@ -1382,8 +1382,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 1}
-  m_Size: {x: 0.5, y: 2}
+  m_Offset: {x: -0.013558924, y: 1}
+  m_Size: {x: 0.6898247, y: 2}
   m_Direction: 0
 --- !u!50 &3022756876054662767
 Rigidbody2D:
@@ -1419,7 +1419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckRadius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckDistance","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Speed","value":{"$content":5.0,"$type":"System.Single"},"$version":"A"},{"name":"Jump","value":{"$content":8.0,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckRadius","value":{"$content":0.2,"$type":"System.Single"},"$version":"A"},{"name":"GroundCheckDistance","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"onGround","value":{"value":0,"$type":"UnityEngine.LayerMask"},"$version":"A"},{"name":"FacingRight","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &2099678306634163769
 MonoBehaviour:
@@ -1436,7 +1436,7 @@ MonoBehaviour:
   _data:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
-    - {fileID: 11400000, guid: a2d62b17f430b4f32b126c6a8fdbcdbf, type: 2}
+    - {fileID: 11400000, guid: 5d3c5459ab8a68446a0738942f7736e5, type: 2}
 --- !u!1 &3651977617793270359
 GameObject:
   m_ObjectHideFlags: 0
