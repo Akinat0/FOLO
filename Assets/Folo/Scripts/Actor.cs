@@ -3,7 +3,6 @@ using UnityEngine;
 
 namespace Folo.Scripts
 {
-    [RequireComponent(typeof(StateMachine))]
     public class Actor : MonoBehaviour
     {
         [SerializeField] string actorName;

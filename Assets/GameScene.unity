@@ -443,8 +443,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sam
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1127607543779628176, guid: cf07f7d51c5204bd98cfb26df6279717, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cf07f7d51c5204bd98cfb26df6279717, type: 3}
 --- !u!1 &193909863
 GameObject:
@@ -9622,7 +9621,7 @@ PrefabInstance:
     - target: {fileID: 6670776611197764857, guid: c91e4091fa0eea94bb2ad92ddea46f42,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.76
+      value: -2.05
       objectReference: {fileID: 0}
     - target: {fileID: 6670776611197764857, guid: c91e4091fa0eea94bb2ad92ddea46f42,
         type: 3}
