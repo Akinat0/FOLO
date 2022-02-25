@@ -101,8 +101,8 @@ MonoBehaviour:
   - {fileID: 8494237778670989086}
   - {fileID: 4141460387938098918}
   m_Bounds:
-    m_Center: {x: 0.08818054, y: 0.8047638, z: 0}
-    m_Extent: {x: 11.471825, y: 6.585243, z: 0}
+    m_Center: {x: 0.08818054, y: 0.80475616, z: 0}
+    m_Extent: {x: 11.471825, y: 6.5852427, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &152056882742028338
@@ -584,7 +584,8 @@ GameObject:
   - component: {fileID: 256168555}
   - component: {fileID: 256168556}
   - component: {fileID: 256168557}
-  - component: {fileID: 8780917783626946893}
+  - component: {fileID: 3166360249876093214}
+  - component: {fileID: 4353339931909786390}
   m_Layer: 31
   m_Name: Jellyfish
   m_TagString: Untagged
@@ -702,7 +703,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 18.83759, y: 7.647169}
   m_EdgeRadius: 0
---- !u!50 &8780917783626946893
+--- !u!50 &3166360249876093214
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -710,19 +711,39 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1072951517323799951}
-  m_BodyType: 1
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
+  m_Mass: 5
+  m_LinearDrag: 0.3
+  m_AngularDrag: 0.3
   m_GravityScale: 0
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!231 &4353339931909786390
+SpringJoint2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1072951517323799951}
+  m_Enabled: 1
+  serializedVersion: 4
+  m_EnableCollision: 0
+  m_ConnectedRigidBody: {fileID: 0}
+  m_BreakForce: Infinity
+  m_BreakTorque: Infinity
+  m_AutoConfigureConnectedAnchor: 0
+  m_Anchor: {x: 0, y: 0}
+  m_ConnectedAnchor: {x: 0, y: 0}
+  m_AutoConfigureDistance: 1
+  m_Distance: 0.8151094
+  m_DampingRatio: 0
+  m_Frequency: 1
 --- !u!1 &1082924509997332981
 GameObject:
   m_ObjectHideFlags: 0
@@ -926,8 +947,8 @@ MonoBehaviour:
   - {fileID: 1294819303599809965}
   - {fileID: 8647034472664191465}
   m_Bounds:
-    m_Center: {x: -0.0073022842, y: -0.02744484, z: 0}
-    m_Extent: {x: 8.352703, y: 10.812557, z: 0}
+    m_Center: {x: -0.007294655, y: -0.02743721, z: 0}
+    m_Extent: {x: 8.352695, y: 10.812557, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &1399722204510834913
@@ -1422,7 +1443,7 @@ MonoBehaviour:
   - {fileID: 5676091348737802323}
   - {fileID: 7944993048271087076}
   m_Bounds:
-    m_Center: {x: 0.03369999, y: 2.3103247, z: 0}
+    m_Center: {x: 0.03369999, y: 2.310317, z: 0}
     m_Extent: {x: 8.726301, y: 7.4546843, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -2669,8 +2690,8 @@ MonoBehaviour:
   - {fileID: 8023383093789125207}
   - {fileID: 3141023433888846180}
   m_Bounds:
-    m_Center: {x: 0.020000458, y: -0.059739113, z: 0}
-    m_Extent: {x: 9.339999, y: 8.540259, z: 0}
+    m_Center: {x: 0.020000458, y: -0.059742928, z: 0}
+    m_Extent: {x: 9.339999, y: 8.540256, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
 --- !u!1 &5015839593566238654
@@ -3118,7 +3139,7 @@ MonoBehaviour:
   - {fileID: 1396225645866598746}
   - {fileID: 1183888144553902594}
   m_Bounds:
-    m_Center: {x: 0.36234212, y: -0.109995365, z: 0}
+    m_Center: {x: 0.36234212, y: -0.110002995, z: 0}
     m_Extent: {x: 3.708023, y: 7.5199966, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -3990,7 +4011,7 @@ MonoBehaviour:
   - {fileID: 4854129829128413560}
   - {fileID: 3791272622581298662}
   m_Bounds:
-    m_Center: {x: 0.38151598, y: 0.11320114, z: 0}
+    m_Center: {x: 0.38151598, y: 0.11319351, z: 0}
     m_Extent: {x: 3.2185, y: 7.388325, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
@@ -4330,7 +4351,7 @@ MonoBehaviour:
   - {fileID: 4760520809767706156}
   - {fileID: 3344839819214016972}
   m_Bounds:
-    m_Center: {x: -4.858852, y: -0.7848506, z: 0}
+    m_Center: {x: -4.858852, y: -0.7848582, z: 0}
     m_Extent: {x: 4.858852, y: 6.3748603, z: 0}
   m_UseBatching: 1
   m_AlwaysUpdate: 1
