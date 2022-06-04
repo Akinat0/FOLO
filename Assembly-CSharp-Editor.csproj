@@ -712,12 +712,6 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Cinemachine">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Animation.Runtime">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -730,17 +724,35 @@
     <Reference Include="Unity.Timeline">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="PsdPlugin">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VisualStudio.Editor">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Triangle.Runtime">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/PsdPlugin.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
@@ -760,26 +772,14 @@
     <Reference Include="Unity.2D.Animation.Editor">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.VisualStudio.Editor">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Mathematics.Editor">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.InternalAPIEditorBridge.001">
       <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:/Users/kirill/Proba/FOLO/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
